@@ -3295,17 +3295,35 @@ table tr:hover .tableAct{
 
 
 .dialog{
-    height: auto;
-    width: 35px;
+    text-align: left;
     position: absolute;
-    margin-left: -138px;
-    margin-top: -10px;
+    margin-left: -54px;
+}
+
+.dialog img{
+    height: auto;
+    width: 35px; 
     z-index: 0;
 }
 
 
 .preBanner{ 
   background-image: linear-gradient(-180deg, #336699 0%, #A3C9ED 100%);
+  padding-top: 125px; 
+  padding-right: 15%; 
+  padding-left: 15%; 
+  height: 350px; 
+  width: 100%;
+}
+
+.windowsBJ{
+  width:200px; 
+  float: left;
+}
+
+.windowsBJ img{
+  height:auto; 
+  width: 130px;
 }
 
 .boxLine{
@@ -3317,6 +3335,41 @@ table tr:hover .tableAct{
     width: 100%;
     background-color: #fff;
     display: flex;
+}
+
+.lineText{
+  width:60%; 
+  float: left; 
+  text-align: center; 
+  padding: 10px;
+}
+
+.lineText .desc{
+  font-size: 20px;
+  font-weight: bold; 
+  text-align: center; 
+  padding: 10px 73px;
+}
+
+.desc span{
+  color:#00b800;
+}
+
+.lineText img{
+  width: 150px; 
+  margin: 10px;
+}
+
+.screen{
+  width: 30%; 
+  float: left;
+  display: flex;
+}
+
+.screen img{
+    width: 267px; 
+    align-self: flex-end;
+    margin-bottom: -5px;
 }
 
 .boxGrey{
@@ -3359,3 +3412,141 @@ table tr:hover .tableAct{
   background-color: #336699;
   color: #fff;
 }
+
+.bjHeader{
+  padding: 10px 15%; 
+  z-index: 2; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: #fff;
+}
+
+.bjHeader ul{
+  height: 60px;
+}
+
+.bjHeader ul span{
+  vertical-align: middle;
+}
+
+
+@media (max-width: 768px) {
+
+  .preBanner { 
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 340px; 
+  }
+  .textBox{
+    margin-top: 15px;
+  }
+
+  .screen{
+    width: 45%;
+  }
+
+  .boxLine{
+    padding: 5px 15px;
+    margin-top: 20px;
+  }
+
+  .lineText{
+    width: 55%;
+  }
+
+  .lineText .desc{
+    padding: 5px 55px;
+  }
+
+  .boxGrey{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .boxWhite{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .boxBottom{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .footer{ 
+      padding: 20px 10%;
+  }
+
+}
+
+
+@media (max-width: 425px){
+  .bjHeader{
+    padding: 5px 10px;
+  }
+
+  .preBanner { 
+    padding: 100px 10px 10px 10px;
+    height: 290px;
+  }
+
+  .windowsBJ {
+    width: 150px; 
+  }
+
+  .windowsBJ img{
+    width: 115px; 
+  }
+
+  .textBox { 
+    width: calc(100% - 150px);
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 11px;
+  }
+
+  .lineText{
+    float: none;
+    width: 100%;
+  }
+
+  .screen {
+    width: 100%;
+    float: none; 
+  }
+
+  .screen img { 
+    margin-bottom: -5px !important;
+    margin: 0 auto;
+  }
+
+  .boxLine{
+    display: block;
+  }
+
+  .boxGrey{
+        padding: 15px;
+    display: block;
+  }
+  .descBot{
+    padding: 0 !important; 
+  }
+}
+
+.descBot{
+  padding: 0 20%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.lineBj{
+  padding: 20px 7.5px !important;
+/*  padding: 17.5px;*/
+}
+
+
+
+
+
