@@ -3404,6 +3404,19 @@ table tr:hover .tableAct{
 
 #linkBJ li{
   cursor: pointer;
+  padding-left: 0;
+  padding-right: 20px;
+  font-size: 12px;
+  list-style: none;
+}
+
+#linkBJ li::before {
+  content: "•"; 
+  color: #336699;
+  display: inline-block; 
+  width: 10px;
+  margin-left: -1em;
+  font-weight: 200;
 }
 
 .footer{
@@ -3486,7 +3499,7 @@ table tr:hover .tableAct{
   .marginHide{
     margin-top: 30px;
   }
-  
+
   .bjHeader{
     padding: 5px 10px;
   }
@@ -3548,7 +3561,19 @@ table tr:hover .tableAct{
 
 .lineBj{
   padding: 20px 7.5px !important;
-/*  padding: 17.5px;*/
+}
+
+@media (max-width: 320px){
+  .textBox{ 
+    margin-top: 4px !important; 
+  }
+}
+
+
+@media (max-width: 1004px){
+  .boxWhite{
+    padding-right: 10%;
+  }
 }
 
 
@@ -3557,7 +3582,7 @@ table tr:hover .tableAct{
     width: calc(100% - 140px);
     font-size: 16px;
     line-height: 16px;
-    margin-top: 0px;
+    margin-top: 15px;
     padding: 16px 10px;
   }
 
@@ -3582,11 +3607,26 @@ table tr:hover .tableAct{
     padding: 5px;
   }
 
+  .sosmed{
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
 }
 
 
 .marginHide{
  /* margin-top: 30px;*/
+}
+
+.sosmed{
+  float: left; 
+  margin-right: 10px;
+      color: #fff;
+}
+
+.sosmed img{
+  height: 25px;
 }
 
 
