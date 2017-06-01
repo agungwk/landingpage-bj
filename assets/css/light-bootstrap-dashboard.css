@@ -3431,7 +3431,7 @@ table tr:hover .tableAct{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
 
   .preBanner { 
     padding-right: 10%;
@@ -3482,6 +3482,11 @@ table tr:hover .tableAct{
 
 
 @media (max-width: 425px){
+
+  .marginHide{
+    margin-top: 30px;
+  }
+  
   .bjHeader{
     padding: 5px 10px;
   }
@@ -3500,7 +3505,7 @@ table tr:hover .tableAct{
   }
 
   .textBox { 
-    width: calc(100% - 150px);
+    width: calc(100% - 158px);
     font-size: 20px;
     line-height: 20px;
     margin-top: 11px;
@@ -3544,6 +3549,44 @@ table tr:hover .tableAct{
 .lineBj{
   padding: 20px 7.5px !important;
 /*  padding: 17.5px;*/
+}
+
+
+@media (max-width: 425px){
+  .textBox{
+    width: calc(100% - 140px);
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 0px;
+    padding: 16px 10px;
+  }
+
+  .dialog{
+    margin-left: -44px;
+  }
+
+  .windowsBJ {
+    width: 130px;
+  }
+
+  .windowsBJ img{
+    width: 100px;
+  }
+
+  .preBanner {
+    padding: 100px 10px 10px 10px;
+    height: 260px;
+  }
+
+  .lineText .desc {
+    padding: 5px;
+  }
+
+}
+
+
+.marginHide{
+ /* margin-top: 30px;*/
 }
 
 
