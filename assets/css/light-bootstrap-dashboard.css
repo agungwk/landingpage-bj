@@ -3248,7 +3248,7 @@ table tr:hover .tableAct{
 
 #our-partners ul {
     list-style: none;
-    margin: 0 0 60px 0;
+    margin: 0 0 10px 0;
     padding: 0;
     text-align: center;
 }
@@ -3573,6 +3573,12 @@ table tr:hover .tableAct{
 @media (max-width: 1004px){
   .boxWhite{
     padding-right: 10%;
+  }
+}
+
+@media (max-width: 1024px){
+  .boxWhite{
+    padding-right: 10%; 
   }
 }
 
